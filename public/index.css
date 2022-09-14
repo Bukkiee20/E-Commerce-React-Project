@@ -49,6 +49,7 @@ button{
   color: rgb(44, 20, 2);
   border: 2px solid rgb(77, 36, 5);
   font-weight: bold;
+  box-shadow: 0 2px 5px rgb(54, 53, 53);
 }
 
 button:hover{
@@ -80,6 +81,7 @@ button:hover{
   background-color: rgb(44, 20, 2);
   color: white;
   padding: 18px 40px;
+  box-shadow: 0 2px 5px rgb(32, 31, 31);
 }
 
 .heroes-section button:hover{

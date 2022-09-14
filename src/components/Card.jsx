@@ -8,7 +8,7 @@ function Card(props){
                    src={props.src}
                    alt={props.alt}
                />
-                </div>
+            </div>
        </div>
     );
 }
