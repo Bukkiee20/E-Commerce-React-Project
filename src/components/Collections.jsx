@@ -5,8 +5,8 @@ import Images from '../images';
 function Collections(){
     return(
         <div className='collection-section'>
-            <h1>New Collections</h1>
-            <p>Filled with Elegance & Class!!!</p>
+            <h1>NEW COLLECTIONS</h1>
+            
 
             <div className='collection-images'>
                 <Card

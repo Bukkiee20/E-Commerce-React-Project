@@ -2,12 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+ 
 
 }
 
 body{
   padding: 0 40px;
   background-color: rgb(230, 214, 201);
+  
 }
 
 
@@ -19,7 +21,7 @@ header{
   justify-content: space-between;
   align-items: center;
   font-weight: 500;
-  color: rgb(44, 20, 2);;
+  color: rgb(44, 20, 2);
 }
 
 .logo{
@@ -65,11 +67,13 @@ button:hover{
 }
 
 .heroes-header{
-  font-size: 3em;
+  font-size: 3.7em;
 }
 
-.heroes-section p{
+.heroes-paragraph{
   margin: 30px 0;
+  font-size: x-large;
+  font-style: italic;
 }
 
 .heroes-section button{
@@ -87,8 +91,8 @@ button:hover{
 }
 
 .heroes-image img{
-  height: 450px;
-  width: 600px;
+  height: 500px;
+  width: 440px;
   border-radius: 0 0 0 150px;
 }
 
@@ -97,6 +101,7 @@ button:hover{
   margin: 80px -40px;
   padding: 10px 100px;
   color: rgb(44, 20, 2);
+  
 }
 
 .collection-section h1{
@@ -125,4 +130,75 @@ button:hover{
   width: 356px;
   border: 3px solid rgb(44, 20, 2);
   
+}
+
+/* Mobile View*/
+
+@media screen and (max-width: 700px){
+
+  *{
+    overflow-x: hidden;
+  }
+
+  body{
+    padding: 0 30px;
+    overflow-x: hidden;
+    
+  }
+
+  header{
+    padding: 50px 0;
+  }
+  .lists, header button{
+    display: none;
+  }
+
+  .heroes-section{
+    flex-direction: column;
+    margin: 100px 0;
+  }
+
+  .heroes-header{
+    font-size: 2.8em;
+  }
+  
+  .heroes-image{
+    margin: 30px 0;
+  }
+
+  .heroes-image img{
+    display: none;
+  }
+
+  .collection-section{
+    padding: 0 80px;
+    background: none;
+
+  }
+
+  .collection-section h1{
+    font-size: 2em;
+    margin-top: 10px;
+  }
+  
+  .collection-images{
+    margin: 50px 0;
+    flex-direction: column;
+    width: fit-content;
+   
+  }
+
+  .collection-card img{ 
+    height: 300px;
+    width: 250px;
+    border: 3px solid rgb(44, 20, 2);
+    
+  }
+
+  .heroes-section button{
+    display: block;
+    margin: 0 auto;
+    padding: 22px 60px;
+    
+  }
 }

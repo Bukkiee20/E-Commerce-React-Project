@@ -5,11 +5,11 @@ function Heroes(){
         <div className='heroes-section'>
             <div>
                <h1 className='heroes-header'>Find The Best Fashion Style For You</h1>
-               <p>Outfits With Class from the Store.</p>
+               <p className='heroes-paragraph'>Affordable Fashion That Fits Your LifeStyle</p>
                <button>SHOP NOW</button>
             </div> 
             <div className='heroes-image'>
-                <img src="./images/download1.jpg" alt="Picture1" />
+                <img src="./images/download2.jpg" alt="Picture1" />
             </div>
        </div>
     );

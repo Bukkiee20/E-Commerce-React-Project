@@ -5,12 +5,12 @@ const Images= [
  },
 
  {
-    src: "./images/download2.jpg",
+    src: "./images/download3.jpg",
     alt: "Picture3"
  },
 
  {
-    src: "./images/download3.jpg",
+    src: "./images/download2.jpg",
     alt: "Picture4"
  },
 
