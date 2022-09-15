@@ -15,6 +15,8 @@ function Collections(){
                            key={Images.id}
                            src={Images.src}
                            alt={Images.alt}
+                           names={Images.names}
+                           price={Images.price}
                        /> 
                ))}
 
