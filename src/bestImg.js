@@ -1,7 +1,7 @@
 const BestSeller= [
     {
        id: 1,
-       src: "./images/download1.jpg",
+       src: "./images/Screenshot (214).png",
        alt: "Picture2",
        names: "Pastel Lond Sleeve",
        price: "$220"
@@ -9,7 +9,7 @@ const BestSeller= [
    
     {
        id: 2,
-       src: "./images/download3.jpg",
+       src: "./images/Screenshot (215).png",
        alt: "Picture3",
        names: "Pastel Lond Sleeve",
        price: "$220"
@@ -17,7 +17,7 @@ const BestSeller= [
 
     {
       id: 2,
-      src: "./images/download2.jpg",
+      src: "./images/Screenshot (216).png",
       alt: "Picture3",
       names: "Pastel Lond Sleeve",
       price: "$220"

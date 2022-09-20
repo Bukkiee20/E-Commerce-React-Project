@@ -1,7 +1,7 @@
 const Images= [
  {
     id: 1,
-    src: "./images/download1.jpg",
+    src: "./images/Screenshot (218).png",
     alt: "Picture2",
     names: "Pastel Lond Sleeve",
     price: "$220"
@@ -17,7 +17,7 @@ const Images= [
 
  {
     id: 3,
-    src: "./images/download2.jpg",
+    src: "./images/Screenshot (219).png",
     alt: "Picture4",
     names: "Pastel Lond Sleeve",
     price: "$220"
@@ -25,7 +25,7 @@ const Images= [
 
  {
    id: 4,
-   src: "./images/download2.jpg",
+   src:"./images/Screenshot (220).png",
    alt: "Picture4",
    names: "Pastel Lond Sleeve",
    price: "$220"

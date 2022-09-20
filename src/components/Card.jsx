@@ -2,7 +2,7 @@ import React from 'react';
 
 function Card(props){
     return(
-       <div>
+       <div className='card'>
            <div className='collection-card'>
                <img 
                    src={props.src}
