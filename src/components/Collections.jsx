@@ -17,6 +17,7 @@ function Collections(){
                            alt={Images.alt}
                            names={Images.names}
                            price={Images.price}
+                           
                        /> 
                ))}
 

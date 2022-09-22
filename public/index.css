@@ -162,14 +162,17 @@ button:hover{
   
 }
 
+.bestseller-writeup{
+  margin-right: 21px;
+}
+
 .bestseller-section h1{
   font-size: 28px;
-  padding: 0 20px 0 0;
+ 
 }
 
 .bestseller-section p{
-  margin: 10px 0;
-  padding: 0 20px 0 0;
+  
   font-size: 15px;
   margin: 30px 0;
 }
@@ -219,7 +222,7 @@ button:hover{
   display: flex;
   justify-content: center;
   margin-top: 10px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .product-lists li{
@@ -229,7 +232,6 @@ button:hover{
 
 .product-images{
   display: flex;
-  gap: 10px;
   margin-top: 15px;
   flex-wrap: wrap;
   margin: 30px 0;
@@ -242,6 +244,60 @@ button:hover{
   z-index: 3;
   
 }
+
+.people-section{
+  background-color: white;
+  margin: 0 -40px;
+  padding: 10px 100px;
+  
+}
+
+.people-section h1{
+  margin-top: 10px;
+  font-size: 2em;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.people-cardgrp{
+  display: flex;
+  gap: 49px;
+  flex-wrap: wrap;
+}
+
+.people-card{
+  text-align: center;
+  height: 300px;
+  width: 350px;
+  background-color: rgb(230, 214, 201);
+  margin-top: 50px;
+  padding-top: 50px;
+
+}
+
+.people-comment{
+  text-align: center;
+  margin: 0 30px;
+  
+
+}
+
+.people-card img{
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin-top: 20px;
+}
+
+.people-name{
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.people-ref{
+  margin-top: 10px;
+}
+
 
 /* Mobile View*/
 

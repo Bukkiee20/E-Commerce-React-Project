@@ -4,6 +4,7 @@ import Heroes from './Heroes';
 import Collections from './Collections';
 import BestSeller from './BestSeller';
 import Products from './ourProducts';
+import People from './people';
 
 function App(){
     return(
@@ -13,6 +14,8 @@ function App(){
            <Collections/>
            <BestSeller/>
            <Products/>
+           <People/>
+
         </div>
         
     );

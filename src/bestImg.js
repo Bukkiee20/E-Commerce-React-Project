@@ -16,7 +16,7 @@ const BestSeller= [
     },
 
     {
-      id: 2,
+      id: 3,
       src: "./images/Screenshot (216).png",
       alt: "Picture3",
       names: "Pastel Lond Sleeve",
