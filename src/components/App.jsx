@@ -5,6 +5,8 @@ import Collections from './Collections';
 import BestSeller from './BestSeller';
 import Products from './ourProducts';
 import People from './people';
+import Pictures from './Pictures';
+
 
 function App(){
     return(
@@ -15,6 +17,8 @@ function App(){
            <BestSeller/>
            <Products/>
            <People/>
+           <Pictures/>
+           
 
         </div>
         

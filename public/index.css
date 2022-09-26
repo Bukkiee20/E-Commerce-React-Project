@@ -298,6 +298,22 @@ button:hover{
   margin-top: 10px;
 }
 
+.picture-section{
+  background-color: white;
+  margin: 0 -40px;
+  padding: 10px 100px;
+}
+
+.picture-grp{
+  display: flex;
+  margin-top: 70px;
+}
+
+.picture-card img{
+  height: 180px;
+  width: 191px;
+}
+
 
 /* Mobile View*/
 

@@ -3,6 +3,7 @@ import PeopleCard from './peopleCard';
 import Reviews from '../PeopleRevs';
 
 
+
 function People(){
     return(
       <div>

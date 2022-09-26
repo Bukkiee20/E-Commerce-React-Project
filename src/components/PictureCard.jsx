@@ -2,7 +2,7 @@ import React from 'react';
 
 function PictureCard(props){
     return(
-       <div>
+       <div className='picture-card'>
          <img src={props.image} alt="" />
        </div>
     );
