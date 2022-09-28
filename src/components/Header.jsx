@@ -24,22 +24,27 @@ function Header(){
       display: "flex",
       alignItems: "center",
       gap: "10px",
+     
 
+   }
+
+   const cartStyle={
+      cursor: "pointer",
    }
     return(
         <header>
             <h1 className='logo'>BUKKIE</h1>
             
             <div style={searchStyle}>
-               <SearchIcon/>
-               <input type="text" style={inputStyle}/>
+               <SearchIcon style={cartStyle}/>
+               <input type="text" style={inputStyle} placeholder="Search...."/>
                 
             </div>
             
             <div style={buttonStyle}>
                <button>REGISTER</button>
                <button>SIGN IN</button>
-               <ShoppingCartIcon/>
+               <ShoppingCartIcon style={cartStyle}/>
             </div>
 
 

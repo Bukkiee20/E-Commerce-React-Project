@@ -1,6 +1,6 @@
 import React from 'react';
 import PeopleCard from './peopleCard';
-import Reviews from '../PeopleRevs';
+import Reviews from '../apifolder/PeopleRevs';
 
 
 

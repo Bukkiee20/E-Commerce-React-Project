@@ -16,7 +16,7 @@ body{
 
 header{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding: 40px 60px;
+  padding: 40px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -63,8 +63,8 @@ button:hover{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 20px 60px;
   color: rgb(44, 20, 2);
+  padding: 20px 0;
   
   
 }
@@ -100,41 +100,22 @@ button:hover{
   border-radius: 0 0 0 150px;
 }
 
-.collection-section{
-  background-color: white;
-  margin: 0 -40px;
-  padding: 10px 100px;
-}
-
-.collection-section h1{
-  margin-top: 80px;
-  font-size: 2em;
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.collection-sub{
-  color: white;
-  background-color: rgb(75, 37, 8);
-  padding: 10px 0;
- 
-}
-
-.collection-sub p{
-  font-size: 20px;
-  text-align: center;
-  margin: 10px 0;
-}
-
-.collection-images{
-  margin: 60px 0;
+.card{
   display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-  
-  
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
+.icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  
+}
 .collection-card{
   border: 2px solid rgb(44, 20, 2);
   
@@ -155,7 +136,7 @@ button:hover{
   justify-content: space-between;
   background-color: rgb(44, 20, 2);
   margin: 0 -40px;
-  padding: 70px 100px;
+  padding: 70px 0;
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   align-items: center;
@@ -163,7 +144,7 @@ button:hover{
 }
 
 .bestseller-writeup{
-  margin-right: 21px;
+  margin: 0 40px;
 }
 
 .bestseller-section h1{
@@ -192,7 +173,7 @@ button:hover{
 .bestseller-images{
   display: flex;
   gap: 10px;
-  margin-top: 15px;
+  margin: 15px 40px;
   
 }
 
@@ -206,7 +187,7 @@ button:hover{
 .product-section{
   background-color: white;
   margin: 0 -40px;
-  padding: 70px 100px;
+  padding: 70px 0;
   font-weight:500;
   
 }
@@ -215,13 +196,14 @@ button:hover{
   text-align: center;
   font-size: 2em;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0 40px;
 }
 
 .product-lists{
   list-style-type: none;
   display: flex;
   justify-content: center;
-  margin-top: 10px;
+  margin: 10px 40px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -232,9 +214,9 @@ button:hover{
 
 .product-images{
   display: flex;
-  margin-top: 15px;
+  justify-content: space-between;
   flex-wrap: wrap;
-  margin: 30px 0;
+  margin: 30px 40px;
   gap: 24px;
 }
 
@@ -248,7 +230,7 @@ button:hover{
 .people-section{
   background-color: white;
   margin: 0 -40px;
-  padding: 10px 100px;
+  padding: 10px 0;
   
 }
 
@@ -263,6 +245,8 @@ button:hover{
   display: flex;
   gap: 49px;
   flex-wrap: wrap;
+  margin: 0 40px;
+  justify-content: space-between;
 }
 
 .people-card{
@@ -301,17 +285,21 @@ button:hover{
 .picture-section{
   background-color: white;
   margin: 0 -40px;
-  padding: 10px 100px;
+  padding: 10px 0;
 }
 
 .picture-grp{
   display: flex;
   margin-top: 70px;
+  margin-left: 40px;
+  margin-right: 40px;
+  width: fit-content;
+  flex-wrap: wrap;
 }
 
 .picture-card img{
   height: 180px;
-  width: 191px;
+  width: 210px;
 }
 
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import PictureCard from './PictureCard';
-import Gallery from '../picture';
+import Gallery from '../apifolder/picture';
 
 function Pictures(){
     return(

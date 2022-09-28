@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from './Card';
-import product from '../product';
+import product from '../apifolder/product';
 
 function Products(){
     return(

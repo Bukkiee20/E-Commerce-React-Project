@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from './Card';
-import BestSeller from '../bestImg';
+import BestSeller from '../apifolder/bestImg';
 
 function BestSellers(){
     return(
