@@ -238,12 +238,12 @@ button:hover{
   gap: 24px;
 }
 
-.card:hover{
+/* .card:hover{
   transform: scale(1.1);
   transition: transform 1.2s ease-in-out;
   z-index: 3;
   
-}
+} */
 
 .people-section{
   background-color: white;

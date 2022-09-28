@@ -6,11 +6,13 @@ import BestSeller from './BestSeller';
 import Products from './ourProducts';
 import People from './people';
 import Pictures from './Pictures';
+import Announce from './Announce';
 
 
 function App(){
     return(
         <div>
+           <Announce/>
            <Header/>
            <Heroes/>
            <Collections/>
