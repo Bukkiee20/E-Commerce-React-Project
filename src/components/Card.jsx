@@ -8,14 +8,13 @@ function Card(props){
 
     const iconStyle= {
         borderRadius: "50%",
-        backgroundColor: "white",
-        color: "rgb(44, 20, 2)",
         margin: "12px",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
         height: "40px",
         width: "40px",
+        
     }
 
     const pointer= {
@@ -52,20 +51,18 @@ function Card(props){
                    src={props.src}
                    alt={props.alt}
                />
-
-               
             </div>
 
             <div className='icons' style={HoverEffect}>
-                   <div style= {iconStyle}>
+                   <div style= {iconStyle} className="icon"> 
                       <ShoppingCartOutlinedIcon style={pointer}/>
                    </div>
 
-                   <div style= {iconStyle}>
+                   <div style= {iconStyle} className="icon">
                        <FavoriteBorderOutlinedIcon style={pointer}/>
                    </div>
 
-                   <div style= {iconStyle}>
+                   <div style= {iconStyle} className="icon">
                       <SearchIcon style={pointer}/>
                    </div>
                </div>
