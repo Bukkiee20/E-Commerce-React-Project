@@ -129,16 +129,12 @@ button:hover{
 }
 .collection-card{
   border: 2px solid rgb(44, 20, 2);
-  
- 
 }
 
 .collection-card img{ 
-  height: 270px;
-  width: 265px;
+  height: 320px;
+  width: 295px;
   display: block;
-  
-  
 }
 
 
@@ -151,7 +147,6 @@ button:hover{
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   align-items: center;
-  
 }
 
 .bestseller-writeup{
@@ -197,7 +192,7 @@ button:hover{
 .product-section{
   background-color: white;
   margin: 0 -40px;
-  padding: 70px 0;
+  padding: 40px 0;
   font-weight:500;
   
 }
@@ -219,7 +214,6 @@ button:hover{
 
 .product-lists li{
   margin: 0 13px;
-  
 }
 
 .product-images{
@@ -229,13 +223,6 @@ button:hover{
   margin: 30px 40px;
   gap: 24px;
 }
-
-/* .card:hover{
-  transform: scale(1.1);
-  transition: transform 1.2s ease-in-out;
-  z-index: 3;
-  
-} */
 
 .people-section{
   background-color: white;
@@ -253,16 +240,16 @@ button:hover{
 
 .people-cardgrp{
   display: flex;
-  gap: 49px;
+  gap: 23px;
   flex-wrap: wrap;
   margin: 0 40px;
-  justify-content: space-between;
+  
 }
 
 .people-card{
   text-align: center;
   height: 300px;
-  width: 350px;
+  width: 300px;
   background-color: rgb(230, 214, 201);
   margin-top: 50px;
   padding-top: 50px;
@@ -295,21 +282,64 @@ button:hover{
 .picture-section{
   background-color: white;
   margin: 0 -40px;
-  padding: 10px 0;
+  padding-top: 10px;
+  overflow-x: hidden;
 }
 
 .picture-grp{
   display: flex;
   margin-top: 70px;
-  margin-left: 40px;
-  margin-right: 40px;
-  width: fit-content;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  
 }
 
 .picture-card img{
   height: 180px;
-  width: 210px;
+  width: 200px;
+  display: block;
+  
+}
+
+.newsletter-section{
+  margin: 0 -40px;
+  padding: 70px 0;
+  text-align: center;
+  
+  
+}
+
+.newsletter-header{
+  font-size: 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.newsletter-sub{
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.newsletter-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem auto;
+  width: 40%;
+  border: 2px solid rgb(44, 20, 2);
+  border-radius: 25px;
+  padding: 10px;
+  background-color: white;
+ 
+  
+}
+
+.newsletter-section input{
+  outline: none;
+  border: none;
+  width: 100%;
+  font-size: 15px;
+  
 }
 
 

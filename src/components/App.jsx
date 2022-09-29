@@ -7,6 +7,7 @@ import Products from './ourProducts';
 import People from './people';
 import Pictures from './Pictures';
 import Announce from './Announce';
+import Newsletter from './Newsletter';
 
 
 function App(){
@@ -20,6 +21,7 @@ function App(){
            <Products/>
            <People/>
            <Pictures/>
+           <Newsletter/>
            
 
         </div>

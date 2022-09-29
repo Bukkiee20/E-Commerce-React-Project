@@ -10,6 +10,7 @@ function Header(){
        alignItems: "center",
        border: "2px solid rgb(44, 20, 2)",
        width: "50%",
+       backgroundColor: "white",
    }
 
    const inputStyle={

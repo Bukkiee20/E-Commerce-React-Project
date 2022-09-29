@@ -17,7 +17,15 @@ const Reviews= [
 
 {
    id: 3,
-   comment: "This store and the services they provide are excellent definitely worth the money and time. Thank you so much for providing this service",
+   comment: "This store and the services they provide are excellent, definitely worth the money and time. Thank you so much for providing this service",
+   image: "./images/Screenshot (220).png",
+   names: "Anisa Zahir",
+   title: "Customer"
+},
+
+{
+   id: 4,
+   comment: "This store and the services they provide are excellent, definitely worth the money and time. Thank you so much for providing this service",
    image: "./images/Screenshot (220).png",
    names: "Anisa Zahir",
    title: "Customer"

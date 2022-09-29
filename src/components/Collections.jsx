@@ -12,7 +12,7 @@ function Collections(){
     }
 
     const collectionImg={
-        margin: "60px 40px",
+        margin: "40px 40px",
         display: "flex",
         flexWrap: "wrap",
         justifyContent: "space-between",
@@ -20,7 +20,7 @@ function Collections(){
     }
 
     const collectionHeader={
-        marginTop: "80px",
+        marginTop: "50px",
         fontSize: "2em",
         textAlign: "center",
         fontFamily: "Verdana, Geneva, Tahoma, sans-serif",

@@ -15,9 +15,9 @@ const Gallery= [
     },
    
     {
-      id: 4,
-      image:"./images/Screenshot (220).png",
-   },
+       id: 4,
+       image:"./images/Screenshot (220).png",
+    },
 
    {
     id: 5,
@@ -26,8 +26,13 @@ const Gallery= [
 
    {
     id: 6,
-    image:"./images/Screenshot (215).png",
+    image:"./images/Screenshot (216).png",
    },
+
+   {
+      id: 7,
+      image:"./images/Screenshot (215).png",
+     },
    
    ]
    

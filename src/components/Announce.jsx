@@ -5,15 +5,16 @@ import { useState } from 'react';
 
 function Announce() {
     const style={
-        display: "flex", 
-        margin: "0 -40px",
-        gap: "20px", 
-        justifyContent: "center", 
-        padding: "5px 0",
-        backgroundColor: "white",
-        position: "fixed",
-        width: "100%",
-        zIndex: "1",
+      display: "flex", 
+      margin: "0 -40px",
+      gap: "20px", 
+      justifyContent: "center", 
+      padding: "5px 0",
+      backgroundColor: "white",
+      position: "fixed",
+      width: "100%",
+      zIndex: "1",
+      fontamFily: "Verdana, Geneva, Tahoma, sans-serif",
     }
 
     const style2={
