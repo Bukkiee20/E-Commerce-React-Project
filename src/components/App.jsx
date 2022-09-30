@@ -8,6 +8,8 @@ import People from './people';
 import Pictures from './Pictures';
 import Announce from './Announce';
 import Newsletter from './Newsletter';
+import Footer from './Footer';
+import Copyright from './Copyright';
 
 
 function App(){
@@ -22,6 +24,8 @@ function App(){
            <People/>
            <Pictures/>
            <Newsletter/>
+           <Footer/>
+           <Copyright/>
            
 
         </div>

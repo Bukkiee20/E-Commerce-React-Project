@@ -34,7 +34,7 @@ function Header(){
    }
     return(
         <header>
-            <h1 className='logo'>BUKKIE</h1>
+            <h1 className='logo'>ELEGANTE</h1>
             
             <div style={searchStyle}>
                <SearchIcon style={cartStyle}/>
