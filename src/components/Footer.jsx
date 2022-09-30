@@ -13,7 +13,7 @@ function Footer() {
   return (
     <div className="footer-section">
         <div className="footer-left">
-           <h2>ELEGANTE TRENDZz</h2>
+           <h2>ELEGANTE TRENDZ</h2>
            <p className="footer-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
            <div className="footer-left-icons">
@@ -26,19 +26,19 @@ function Footer() {
               </div>
               
               <div className="footer-iconstyle github">
-                  <a href="https://github.com/Bukkiee20" target="_blank"><GitHubIcon className="pointer"/></a>
+                  <a href="https://github.com/Bukkiee20" target="_blank" rel="noreferrer"><GitHubIcon className="pointer"/></a>
               </div>
               
               <div className="footer-iconstyle twitter">
-                  <a href="https://twitter.com/AdeyooyeB" target="_blank"><TwitterIcon className="pointer"/></a>
+                  <a href="https://twitter.com/AdeyooyeB" target="_blank" rel="noreferrer"><TwitterIcon className="pointer"/></a>
               </div>
               
               <div className="footer-iconstyle pinterest">
-                  <a href="https://www.pinterest.com/adeyooyebukola/" target="_blank"><PinterestIcon className="pointer"/></a>
+                  <a href="https://www.pinterest.com/adeyooyebukola/" target="_blank" rel="noreferrer"><PinterestIcon className="pointer"/></a>
               </div>
 
               <div className="footer-iconstyle mail">
-                  <a href="mailto:adeyooyebukola22@gmail.com" target="_blank"><EmailIcon className="pointer"/></a>
+                  <a href="mailto:adeyooyebukola22@gmail.com" target="_blank" rel="noreferrer"><EmailIcon className="pointer"/></a>
               </div>
               
            </div>
